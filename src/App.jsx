@@ -4,6 +4,7 @@ import Hero from "./hero-section/Hero";
 import Welcome from "./welcome-text/Welcome";
 import Producten from "./onze-producten/Producten";
 import Service from "./service-section/Service";
+import Reference from "./reference/Reference";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Welcome />
       <Producten />
       <Service />
+      <Reference />
     </BrowserRouter>
   );
 }
