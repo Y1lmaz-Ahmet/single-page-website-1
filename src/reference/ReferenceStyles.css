@@ -15,7 +15,7 @@
 .reference-left-grid img {
 	height: 425px;
 	margin-top: 12.5px;
-	box-shadow: 19px -6px 4px gray;
+	box-shadow: 19px -6px 4px #26A4BF;
 }
 
 .reference-right-grid {
@@ -63,7 +63,7 @@
 		height: 450px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 30px;
+		gap: 20px;
 	}
 
 	.reference-left-grid {
@@ -73,7 +73,7 @@
 	.reference-left-grid img {
 		height: 425px;
 		margin-top: 12.5px;
-		box-shadow: 19px -6px 4px gray;
+		box-shadow: 19px -6px 4px #26A4BF;
 		width: 200px;
 	}
 
@@ -108,10 +108,9 @@
 	#reference {
 		width: 90%;
 		margin: 15px auto;
-		height: auto;
+		height: 950px;
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 15px;
-
+		gap: 5px;
 	}
 }

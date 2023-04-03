@@ -18,6 +18,10 @@
 	width: 100%;
 }
 
+.service-left-grid:nth-child(1)>img {
+	box-shadow: 21px 12px 2px #1f788b;
+}
+
 .service-right-grid {
 	display: flex;
 	flex-direction: column;
