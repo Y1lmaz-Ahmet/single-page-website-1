@@ -12,10 +12,10 @@ const Navigation = () => {
           <Link to='/'>home</Link>
         </li>
         <li>
-          <Link to='#about'>about</Link>
+          <Link to='/about'>about</Link>
         </li>
         <li>
-          <Link to='#wedo'>what we do</Link>
+          <Link to='/producten'>what we do</Link>
         </li>
         <li>
           <Link to='#service'>service</Link>
