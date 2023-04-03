@@ -1,8 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
+import Navigation from "./navigation/Navigation";
+
 function App() {
   return (
-    <div className='App'>
-      <h1>project setup</h1>
-    </div>
+    <BrowserRouter>
+      <Navigation />
+    </BrowserRouter>
   );
 }
 
