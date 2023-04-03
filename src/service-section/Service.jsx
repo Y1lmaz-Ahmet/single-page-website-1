@@ -17,9 +17,12 @@ const Service = () => {
             soluta magni quod fugit deleniti ad nostrum, rem modi nulla quas
             asperiores, culpa omnis dolorum deserunt voluptate ex esse
             exercitationem reiciendis? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Sint rem neque dolor animi illum minus quos error
-            vel commodi, atque nesciunt totam qui et aperiam ipsum eius
-            officiis! Nihil, esse!
+            adipisicing elit. Sint rem
+            <span className='boldy-white'>
+              vel commodi, atque nesciunt totam qui et aperiam ipsum eius
+              officiis! Nihil, esse!
+            </span>
+            neque dolor animi illum minus quos error
           </p>
         </div>
         <div className='service-right-grid-button-holder'>
