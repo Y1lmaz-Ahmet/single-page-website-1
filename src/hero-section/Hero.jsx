@@ -1,8 +1,8 @@
 import React from "react";
-import "./AboutStyles.css";
+import "./HeroStyles.css";
 const About = () => {
   return (
-    <div id='about'>
+    <div id='Hero'>
       <div id='vector-image'></div>
     </div>
   );

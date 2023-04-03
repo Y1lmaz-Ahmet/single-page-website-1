@@ -1,12 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 import Navigation from "./navigation/Navigation";
-import About from "./hero-section/About";
+import Hero from "./hero-section/Hero";
+import Welcome from "./welcome-text/Welcome";
 
 function App() {
   return (
     <BrowserRouter>
       <Navigation />
-      <About />
+      <Hero />
+      <Welcome />
     </BrowserRouter>
   );
 }
