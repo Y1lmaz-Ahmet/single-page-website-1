@@ -11,6 +11,8 @@
 	gap: 15px;
 	border-bottom-right-radius: 6px;
 	border-bottom-left-radius: 6px;
+	box-shadow: 3px 5px 5px gray;
+
 }
 
 nav img {
@@ -26,9 +28,65 @@ nav h1 {
 ul.navigation-wrapper {
 	display: flex;
 	flex-direction: row;
-
 }
 
-.navigation-wrapper li {
+.navigation-wrapper a {
 	margin-right: 35px;
+	text-decoration: none;
+}
+
+.navigation-wrapper a:hover {
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+@media screen and (max-width:870px) {
+	nav h1 {
+		font-size: 20px;
+		flex-grow: 2;
+	}
+
+	nav img {
+		height: 25px;
+		padding-left: 15px;
+	}
+
+	.navigation-wrapper a {
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width:695px) {
+	nav h1 {
+		font-size: 16px;
+		flex-grow: 2;
+	}
+
+	nav img {
+		height: 20px;
+		padding-left: 5px;
+	}
+
+	.navigation-wrapper a {
+		margin-right: 10px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:515px) {
+	nav h1 {
+		font-size: 16px;
+		flex-grow: 0;
+	}
+
+	nav img {
+		height: 20px;
+		padding-left: 5px;
+	}
+
+	.navigation-wrapper a {
+		margin-right: 5px;
+		font-size: 14px;
+	}
 }
