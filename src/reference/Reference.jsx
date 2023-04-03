@@ -27,6 +27,16 @@ const Reference = () => {
           </article>
         </div>
       </div>
+      <img
+        src='../../src/assets/vector2.png'
+        alt=''
+        className='reference-vector-2'
+      />
+      <img
+        src='../../src/assets/vector3.png'
+        alt=''
+        className='reference-vector-3'
+      />
     </div>
   );
 };

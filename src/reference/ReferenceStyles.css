@@ -6,6 +6,8 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 55px;
+	position: relative;
+	overflow: hidden;
 }
 
 .reference-left-grid {
@@ -53,6 +55,22 @@
 
 .reference-button button:hover {
 	background: #4fcae6;
+}
+
+.reference-vector-2 {
+	position: absolute;
+	left: -100px;
+	transform: rotate(180deg);
+	top: -120px;
+	z-index: -1;
+}
+
+.reference-vector-3 {
+	position: absolute;
+	right: -180px;
+	bottom: 0px;
+	transform: rotate(180deg);
+	z-index: -5;
 }
 
 @media screen and (max-width:980px) {

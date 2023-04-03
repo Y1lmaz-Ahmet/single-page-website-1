@@ -3,7 +3,9 @@ import "./HeroStyles.css";
 const About = () => {
   return (
     <div id='Hero'>
-      <div id='vector-image'></div>
+      <div id='vector-image'>
+        <img src='../../src/assets/vector2.png' alt='vector 1' />
+      </div>
     </div>
   );
 };

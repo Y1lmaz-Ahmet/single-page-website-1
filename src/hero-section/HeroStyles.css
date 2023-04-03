@@ -7,15 +7,16 @@
 	background-image: url('../assets/Hero.png');
 	background-repeat: no-repeat;
 	background-position: center;
+	overflow: hidden;
 }
 
-#vector-image {
-	background-image: url('../assets/vector1.png');
-	background-repeat: no-repeat;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 655px;
+#vector-image img:nth-last-child(1) {
+	transform: rotate(180deg);
+	margin-left: -50px;
+	margin-top: -10px;
+	height: 600px;
 	width: 150.83px;
-	z-index: -1;
+	z-index: 1;
+	overflow: hidden;
+	opacity: .4;
 }
