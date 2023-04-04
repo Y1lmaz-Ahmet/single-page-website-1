@@ -5,6 +5,7 @@ import Welcome from "./welcome-text/Welcome";
 import Producten from "./onze-producten/Producten";
 import Service from "./service-section/Service";
 import Reference from "./reference/Reference";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Producten />
       <Service />
       <Reference />
+      <Footer />
     </BrowserRouter>
   );
 }
