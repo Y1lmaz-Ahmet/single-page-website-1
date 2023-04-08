@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavigationStyles.css";
-import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navigation = () => {
   return (
@@ -9,19 +9,25 @@ const Navigation = () => {
       <h1>Nexa</h1>
       <ul className='navigation-wrapper'>
         <li>
-          <Link to='/'>home</Link>
+          <Link to='welcome' smooth={true} duration={500}>
+            home
+          </Link>
+        </li>
+
+        <li>
+          <Link to='producten' smooth={true} duration={500}>
+            what we do
+          </Link>
         </li>
         <li>
-          <Link to='/about'>about</Link>
+          <Link to='service' smooth={true} duration={500}>
+            service
+          </Link>
         </li>
         <li>
-          <Link to='/producten'>what we do</Link>
-        </li>
-        <li>
-          <Link to='#service'>service</Link>
-        </li>
-        <li>
-          <Link to='#reference'>reference</Link>
+          <Link to='reference' smooth={true} duration={500}>
+            reference
+          </Link>
         </li>
       </ul>
     </nav>

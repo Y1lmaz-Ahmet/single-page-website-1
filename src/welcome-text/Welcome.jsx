@@ -2,7 +2,7 @@ import React from "react";
 import "./WelcomeStyles.css";
 const Welcome = () => {
   return (
-    <div id='welcome-text'>
+    <div id='welcome'>
       <article className='headers'>
         <h1>Welkom op Nexa</h1>
         <h4>We zijn hier voor uitstekende service.</h4>

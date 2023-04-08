@@ -1,4 +1,4 @@
-#welcome-text {
+#welcome {
 	max-width: 1240px;
 	width: 90%;
 	margin: auto;
@@ -18,7 +18,7 @@ h4 {
 
 /* @media screen and (max-width:870px) {} */
 @media screen and (max-width:695px) {
-	#welcome-text {
+	#welcome {
 		width: 90%;
 		margin: auto;
 		height: 300px;
@@ -40,7 +40,7 @@ h4 {
 }
 
 @media screen and (max-width:515px) {
-	#welcome-text {
+	#welcome {
 		width: 90%;
 		margin: auto;
 		height: 600px;
